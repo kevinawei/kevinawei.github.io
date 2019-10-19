@@ -1,0 +1,85 @@
+html, body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+
+  font-family: 'Abel', sans-serif;
+}
+.bio {
+  background-color: rgba(114,225,209,1)
+  margin: 5px;
+}
+
+.profile-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+.my-name{
+  text-align: center;
+  font-size: 45px;
+}
+.melee{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.melee{
+  width: 80px;
+}
+.about-me{
+  font-size: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: center;
+}
+.list{
+  font-size: 24px;
+}
+.body{
+  background: linear-gradient(to bottom, rgba(0, 225, 180, 1) 10%, rgba(36, 123, 160, 1) 100%) ;
+}
+ul {
+  list-style-type: none;
+
+}
+li{
+  display: flex;
+  font-family: 'PT-Serif', sans-serif;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  float: left;
+}
+li a {
+  color: lightgrey;
+  padding: 5px;
+  text-decoration: none;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+.fa-linkedin{
+  background: #3B5998;
+  color: white;
+  margin-bottom: 10px;
+}
+.fa-file{
+  color: white;
+}
+.resume{
+}
+.fa{
+    padding: 10px;
+    width: 26px;
+    text-align: center;
+    text-decoration: none;
+     border-radius: 30%;
+}
+.fa:hover{
+  opacity:0.8;
+}
